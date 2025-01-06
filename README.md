@@ -1,1 +1,1 @@
-# maze generator readme
+# Maze Generator
