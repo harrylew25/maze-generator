@@ -1,4 +1,4 @@
-from graphics import Cell
+from cell import Cell
 import random
 import time
 
@@ -11,7 +11,7 @@ class Maze:
             num_cols,    
             cell_size_x,
             cell_size_y,
-            win
+            win=None
         ):
         self._cells = []
         self._x1 = x1
